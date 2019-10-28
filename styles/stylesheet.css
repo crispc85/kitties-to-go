@@ -12,7 +12,7 @@ body {
 }
 
 p {
-  line-height: 1.8;
+  line-height: 1.75;
 }
 
 header {
@@ -75,6 +75,10 @@ main {
 }
 
 main section {
+  padding-bottom: 20px;
+}
+
+main article {
   padding-bottom: 30px;
 }
 
@@ -84,6 +88,7 @@ main h4 {
   font-size: 23px;
   font-weight: bold;
   font-style: normal;
+  line-height: 1.5;
 }
 
 main p {
@@ -112,7 +117,8 @@ h3 {
   font-size: 25.5px;
   font-weight: normal;
   font-style: normal;
-  line-height: 1.5
+  line-height: 1.5;
+  padding-top: 50px;  
 }
 
 aside {
@@ -120,7 +126,7 @@ aside {
   width: 18%;
   padding-right: 10%;
   padding-left: 2%;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 75px;
 }
 
@@ -202,3 +208,11 @@ footer a {
   text-align: center;
 }
 
+
+ul {
+  line-height: 1.75;
+  font-family: "arial", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+}
