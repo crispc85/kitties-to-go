@@ -83,7 +83,7 @@ main article {
 }
 
 main h4 {
-  color: #239AB9;
+  color: #1D819A;
   font-family: "arial", sans-serif;
   font-size: 23px;
   font-weight: bold;
@@ -108,11 +108,11 @@ h3 {
 }
 
 .btag {
-  color: #2C9AB7;
+  color: #1D819A;
 }
 
 .quote {
-  color: #52BAD5;
+  color: #1D819A;
   font-family: "arial", sans-serif;
   font-size: 25.5px;
   font-weight: normal;
@@ -152,7 +152,7 @@ aside img {
 }
 
 aside a {
-  color: #2C9AB7;
+  color: #1D819A;
   font-family: "arial", sans-serif;
   font-size: 17px;
   font-weight: normal;
@@ -216,4 +216,24 @@ ul {
   font-weight: normal;
   font-style: normal;
   padding-bottom: 50px;
+}
+
+#skip a
+{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+ 
+#skip a:focus
+{
+  position:absolute;
+  left: 0;
+  top: 0;
+  width:auto;
+  height:auto;
+  color: black;
 }
